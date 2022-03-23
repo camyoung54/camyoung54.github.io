@@ -644,7 +644,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image {
+		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
@@ -653,7 +653,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			
 			position: absolute;
 			top: 0;
 			width: 100%;
