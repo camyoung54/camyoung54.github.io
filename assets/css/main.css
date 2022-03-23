@@ -702,8 +702,14 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
-				opacity: 1;
 			}
+		
+		.researchimg {
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
+			opacity: 1.0;
+		}
 
 		@media screen and (max-width: 736px) {
 
