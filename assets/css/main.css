@@ -1361,14 +1361,7 @@ body.is-preload #bg:before {
 }
 
 #header > *:before {
-	content: '';
-	display: block;
-	position: absolute;
-	top: calc(-3.5rem - 1px);
-	left: calc(50% - 1px);
-	width: 1px;
-	height: calc(3.5rem + 1px);
-	background: var(--text-primary);
+	display: none; /* Hide all connecting lines */
 }
 
 #header > :first-child {
@@ -1412,11 +1405,10 @@ body.is-preload #bg:before {
 #header img {
 	border: 3px solid rgba(255, 255, 255, 0.3);
 	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
 }
 
 #header img:hover {
-	transform: scale(1.05);
 	box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
 }
 
@@ -1826,3 +1818,4 @@ body.is-article-visible #footer {
 body.is-preload #footer {
 	opacity: 0;
 }
+
