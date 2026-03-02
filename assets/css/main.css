@@ -1938,3 +1938,23 @@ body.is-preload #footer {
         letter-spacing: 0.1rem;
     }
 }
+
+/* SUBTITLE FIX - ADD AT THE END */
+.subtitle {
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.2rem !important;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.95) !important;
+    margin: 1.5rem 0 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle span {
+    font-size: 1.25rem !important;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    display: block;
+    margin-top: 0.75rem;
+    letter-spacing: 0.15rem !important;
+}
