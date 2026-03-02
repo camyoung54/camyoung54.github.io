@@ -1902,22 +1902,18 @@ body.is-preload #footer {
     }
 }
 
-/* Improved Header Titles */
-.title-primary {
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.15rem;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.95);
-    margin-bottom: 0.5rem;
-}
-
-.title-secondary {
-    font-size: 0.95rem;
-    font-weight: 300;
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
     letter-spacing: 0.1rem;
-    color: rgba(255, 255, 255, 0.75);
-    line-height: 1.6;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
 }
 
+.subtitle span {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+}
 
