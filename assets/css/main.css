@@ -1908,7 +1908,7 @@ body.is-preload #footer {
 }
 
 .degree-title {
-    font-size: 1.8rem !important;
+    font-size: 1.6rem !important;
     font-weight: 700 !important;
     letter-spacing: 0.25rem !important;
     text-transform: uppercase !important;
@@ -1919,7 +1919,7 @@ body.is-preload #footer {
 }
 
 .institution-name {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
     font-weight: 400 !important;
     letter-spacing: 0.15rem !important;
     color: rgba(255, 255, 255, 0.9) !important;
@@ -1939,3 +1939,4 @@ body.is-preload #footer {
         letter-spacing: 0.1rem !important;
     }
 }
+
