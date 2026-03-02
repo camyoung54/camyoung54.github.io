@@ -1908,7 +1908,7 @@ body.is-preload #footer {
 }
 
 .degree-title {
-    font-size: 1.1rem;
+    font-size: 1.3rem;  /* Increased from 1.1rem */
     font-weight: 600;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
@@ -1918,7 +1918,7 @@ body.is-preload #footer {
 }
 
 .institution-name {
-    font-size: 0.9rem;
+    font-size: 1.05rem;  /* Increased from 0.9rem */
     font-weight: 300;
     letter-spacing: 0.12rem;
     color: rgba(255, 255, 255, 0.85);
@@ -1929,12 +1929,12 @@ body.is-preload #footer {
 /* Mobile adjustments */
 @media screen and (max-width: 736px) {
     .degree-title {
-        font-size: 0.95rem;
+        font-size: 1.1rem;  /* Increased from 0.95rem */
         letter-spacing: 0.15rem;
     }
     
     .institution-name {
-        font-size: 0.8rem;
+        font-size: 0.9rem;  /* Increased from 0.8rem */
         letter-spacing: 0.08rem;
     }
 }
