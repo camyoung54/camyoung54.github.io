@@ -1804,7 +1804,7 @@ body.is-preload #footer {
     width: 9rem;
     height: 9rem;
     object-fit: cover;
-    object-position: center 25%;
+    object-position: center;
     border-radius: 50%;
     margin: 1.75rem auto;
 }
